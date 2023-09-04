@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lumanosimo&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script
+    src="https://kit.fontawesome.com/ddc3ee268a.js"
+    crossorigin="anonymous"
+  ></script>
+  <meta name="description" content="Barbie World Web which includes quotes, photo gallary, and movie list">
+  <title>Barbie world web by Isha F, home page</title>
+
+  <style>
+    nav {
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    
+.barbie-logo {
+  width: 60px;
+  height: auto;
+}
+    body {
+      padding-top: 0;
+      margin-top: 0;
+      background: linear-gradient(to bottom, rgb(255, 215, 221), white);
+    }
+   .page-one {
+    padding-top: 0;
+    margin-top: 0;
+    height: auto;
+    padding-bottom: 80px;
+    width: 100%;
+}
+
+h1 .heading-span {
+  font-size: 90px;
+  color: rgb(255, 157, 173);
+  font-family: 'EB Garamond', serif;
+font-family: 'Lumanosimo', cursive;
+font-family: 'Playfair Display', serif;
+
+}
+h1 {
+  padding-top: 20px;
+  font-size: 40px;
+  color: rgb(255, 64, 198);
+  font-family: 'EB Garamond', serif;
+font-family: 'Lumanosimo', cursive;
+font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-weight: 400px;
+  font-style: italic;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.barbie-face-logo {
+  width: 500px;
+  height: auto;
+  margin: 10px auto;
+  display: block;
+}
+a.social-links {
+  color: rgb(253, 174, 187);
+  font-size: 40px;
+  margin-left: 20px;
+  display: block;
+  position: fixed;
+  margin-bottom: 10px;
+  transition: all 100ms ease-in-out;
+}
+.social-one {
+  margin-top: -150px;
+  opacity: 0.9;
+  padding-top: 0;
+  padding-left: 3px;
+  
+}
+.social-links:hover {
+  background-color: rgb(255, 0, 170);
+  width: 45px;
+  border-radius: 100%;
+  
+  
+}
+.social-two {
+  margin-top: -100px;
+  opacity: 0.9;
+  padding-left: 5px;
+}
+.social-three {
+  margin-top: -50px;
+  opacity: 0.9;
+  padding-left: 5px;
+}
+
+@media (max-width: 700px){
+  .page-one {
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 100px; 
+    
+  }
+  h1 {
+    font-size: 40px;
+    padding-top: 20px;
+  }
+  h2 {
+    font-size: 30px;
+    padding-top: 20px;
+  }
+  span.heading-span {
+    font-size: 50px;
+  }
+  img.barbie-face-logo {
+    width: 400px;
+    height: auto;
+  }
+  a.social-links {
+    font-size: 30px;
+    padding-bottom: 0;
+    margin-bottom: 2px;
+    
+  }
+  .social-links:hover {
+    width: 36px;
+    border-radius: 100%
+  }
+  
+}
+.barb-quote-line {
+    color: rgb(255, 78, 152);
+    margin-top: 70px;
+    font-size: 20px;
+    margin-left: 100px;
+  }
+  .bq-paragraph {
+    color: rgb(255, 131, 179);
+    font-size: 17px;
+    margin-left: 100px;
+  }
+  .f-r-line {
+    color: rgb(255, 78, 152);;
+    font-size: 20px;
+    margin-left: 100px;
+  }
+  .f-r-paragraph {
+    font-size: 17px;
+    margin-left: 100px;
+    color: rgb(255, 131, 179);
+  }
+
+/* Page two */
+
+#quotes-page {
+  background: url("img/1031606_barbie-wallpapers-barbie-wallpapers-for-girls_1600x900_h.jpg");
+   background-size: cover;
+  background-repeat: repeat;
+  
+}
+h1.barbie-quotes-line {
+  text-align: center;
+  font-size: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+h1.barbie-quotes-line {
+  padding-top: 20px;
+  font-size: 40px;
+  color: rgb(255, 1, 158);
+  font-family: 'EB Garamond', serif;
+font-family: 'Lumanosimo', cursive;
+font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-weight: 400px;
+  font-style: italic;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+p.quote {
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+font-family: 'Lumanosimo', cursive;
+font-family: 'Playfair Display', serif;
+  font-size: 18px;
+ 
+}
+a.more-info-link-quotes {
+  text-align: center;
+  text-decoration: none;
+  color:rgb(253, 194, 234);
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  font-size: 18px;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+  
+}
+
+@media (width: 700px) {
+  p.quote {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  #quotes-page {
+    height: auto;
+  }
+}
+
+/* Page three */
+
+#special-closet {
+box-sizing: border-box;
+margin-top: 0;
+margin: 0;
+font-family: sans-serif;
+background: #f5f6f7;
+}
+
+.header-closet {
+text-align: center;
+text-transform: uppercase;
+padding: 32px;
+background-color: pink;
+color: #ff00aa;
+border-bottom: 4px solid pink;
+font-family: 'EB Garamond', serif;
+font-family: 'Lumanosimo', cursive;
+font-family: 'Playfair Display', serif;
+font-style: italic;
+margin-top: 0;
+}
+
+.gallery {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 16px;
+max-width: 1400px;
+margin: 0 auto;
+padding: 20px 10px;
+}
+
+.gallery img {
+width: 100%;
+max-width: 350px;
+height: 300px;
+object-fit: cover;
+border-radius: 10px;
+}
+.gallery::after {
+content:"";
+width: 350px;
+}
+.gallery img {
+  border: 1px solid pink;
+  -webkit-transition: background-image 0.1s;
+}
+
+/* Page four */
+
+    .header-movies {
+text-align: center;
+text-transform: uppercase;
+padding: 32px;
+opacity: 0.7;
+color: #ff00aa;
+border-bottom: 4px solid pink;
+font-family: 'EB Garamond', serif;
+font-family: 'Lumanosimo', cursive;
+font-family: 'Playfair Display', serif;
+font-style: italic;
+}
+header.movie-title {
+  padding: 0;
+  margin: 0;
+}
+header.movie-paragraph {
+padding: 0;
+margin: 0;
+}
+    .movie-list {
+      margin: 0 auto;
+      display: block;
+      width: 60%;
+      height: auto;
+      padding-top: 20px;
+      padding-bottom: 40px;
+    }
+    .movies {
+      background: rgb(253, 227, 231);
+    }
+    /* Page five */
+
+    #my-barbie-house {
+          background: white;
+          border-bottom: 4px solid pink;
+          border-top: 4px solid pink;
+        }
+        p.paragraph-one-house {
+          font-size: 50px;
+          color: rgb(255, 123, 204);
+          text-align: center;
+          font-family: 'EB Garamond', serif;
+          font-family: 'Lumanosimo', cursive;
+          font-family: 'Playfair Display', serif;
+          font-style: italic;
+          font-weight: bold;
+          padding-bottom: 0;
+          margin-bottom: 0;
+          padding-top: 30px;
+    }
+    img.barbie-house {
+      width: 900px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      padding-bottom: 50px;
+    }
+        p.paragraph-two-house {
+          font-size: 30px;
+          color: rgb(255, 167, 221);
+          text-align: center;
+          font-family: 'EB Garamond', serif;
+          font-family: 'Lumanosimo', cursive;
+          font-family: 'Playfair Display', serif;
+          margin-top: 0;
+          padding-top: 0;
+          padding-bottom: 20px;
+        }
+        
+        @media (max-width:700px) {
+          img.barbie-house {
+            width: 500px;
+            padding-left: 5px;
+            padding-right: 5px;
+            height: auto;
+          }
+        }
+        /*page six*/
+
+        #friends-request {
+        display: block;
+        text-align: center;
+        font-family: 'EB Garamond', serif;
+        font-family: 'Lumanosimo', cursive;
+        font-family: 'Playfair Display', serif;
+        background: url(img/white\ background\ glitter.jpg);
+        padding: 0 auto;
+        margin: 0;
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+        margin-left: 0;
+        padding-bottom: 20px;
+        border-bottom: 4px solid pink;
+     
+}
+        .friends-paragraph-one {
+          font-size: 50px;
+          color: #ff57b3;
+          font-weight: bold;
+          font-style: italic;
+          margin-bottom: 0;
+          padding-bottom: 20px;
+          padding-top: 20px;
+          margin-top: 0
+
+  
+        }
+        .friends-button {
+          padding: 5px;
+          color: rgb(255, 131, 207);
+          background-color: white;
+          border: pink;
+          border-style: solid;
+          border-radius: 10px;
+          width: 300px;
+          height: auto;
+          font-size: 20px;
+          margin-bottom: 30px;
+          transition: all 100ms ease-in-out;
+        }
+        .friends-button:hover {
+          opacity: 0.8;
+         
+        }
+        a.friends-link {
+          text-decoration: 0;
+          color: rgb(255, 131, 207);
+          font-family: 'EB Garamond', serif;
+          font-family: 'Lumanosimo', cursive;
+          font-family: 'Playfair Display', serif;
+        }
+        a.friends-link:hover {
+          color:rgb(255, 0, 170);
+        }
+         a.back-home-page-link {
+          text-decoration: 0;
+          color: rgb(255, 0, 170);
+          font-family: 'EB Garamond', serif;
+          font-family: 'Lumanosimo', cursive;
+          font-family: 'Playfair Display', serif;
+          
+        }
+         a.back-home-page-link:hover {
+          text-decoration: underline;
+          color: rgb(255, 0, 170);
+        }
+        footer {
+         color: rgb(255, 152, 169);
+    
+        }
+       footer a {
+         color: black;
+}
+  </style>
+</head>
+<body>
+  <navbar>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#home-page"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/095/609/original/Barbie-Logo-1991-1999.png?1693756835" 
+      alt="barbie logo" class="barbie-logo"> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#home-page">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#quotes-page">Quotes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#special-closet">Closet</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#movies-page">Movies</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#my-barbie-house">House</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#friends-request">Friend Request</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</navbar>
+<div class="page-one" style="padding-top: 0; margin-top: 0;">
+  
+  <h1 id="home-page">Special Viewers only<br>
+    <span class="heading-span">My Barbie Universe</span>
+  </h1>
+  <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/095/616/original/barbie_face_logo.png?1693760933"
+  alt="babrie-face-logo" class="barbie-face-logo">
+  
+  <a href="#" target="_blank" 
+  title="ken doll at amazon" class="social-links social-one">
+          <i class="fab fa-facebook"></i>
+        </a>
+  <a href="#" target="_blank" 
+  title="Instagram profile" class="social-links social-two">
+          <i class="fab fa-instagram"></i>
+        </a>
+ <a href="#" target="_blank" 
+  title="amazon store" class="social-links social-three">
+          <i class="fab fa-amazon"></i>
+        </a>
+<div class="section-bottom-one">
+        <p class="barb-quote-line"><strong>Barbie Quotes</strong></p>
+<p class="bq-paragraph">Inspiring quotes to be remembered by me...    
+ <br><br><span class="Learn-more"><strong><a href="#quotes-page" 
+  style="color:rgb(156, 154, 154);">View page</a> →</strong></span>
+</div>
+
+<div class="section-bottom-two">
+<p class="f-r-line"><strong>Friend Request</strong></p>
+<p class="f-r-paragraph">Want to be friends or have a chat...
+  <br><br><span class="Learn-more"><strong><a href="#friends-request" 
+    style="color:rgb(156, 154, 154);">View page</a> →</strong></span>
+</p>
+</div> 
+      </div>
+      <div id="quotes-page">
+        <h1 class="barbie-quotes-line">My Quotes</h1>
+        <p class="quote">"Anything is possible!" ~ Nutcracker 2001</p>
+        <p class="quote">"There is always hope." ~ Barbie and the Magic of Pegasus 2005</p>
+        <p class="quote">"The most beutiful thing you can be is yourself." ~ Mariposa 2008</p>
+        <p class="quote">"Even the smallest person can make a big difference." ~ Thumbelina 2009</p>
+        <p class="quote">"What makes you different just might be your greatest strength." ~ Mermaid Tale 2010</p>
+        <p class="quote">"Magic happens when you believe in yourself." ~ A Fashion Fairytale 2010</p>
+        <p class="quote">"There's a princess in every girl." ~ Princess Charm School 2011</p>
+        <p class="quote">"Forgiveness lets you fly." ~ A Fairy Secret 2011</p>  
+        <p class="quote">"Always leave things better than you found them." ~ The Pearl Princess 2014</p>
+        <p class="quote">"You never know what you can do unless you try." ~ Barbie and the Secret Door 2014</p>
+        <p class="quote">"Rock your own story." ~ Rock 'N Royals 2015</p>
+        <p class="quote">"Love and imagnination can change the world." ~ Mermaid Tale 2015</p>
+        <p><a href="https://www.quoteambition.com/barbie-quotes/#google_vignette" target="_blank" class="more-info-link-quotes">More quotes</a></p>
+      </div>
+    </div>
+
+        <div id="special-closet">
+          <header class="header-closet">
+            <h1>My Secret Closet</h1>
+            <p>Magical dresses, Barbies, and my flying Horse</p>
+            </header>
+            <div class="gallery">
+              <img src="img/barbie one.jpg" alt="barbie-one">
+              <img src="img/barbie-two.jpg" alt="barbie-two">
+              <img src="img/barbie-horse-three.jpg" alt="barboe-three">
+              <img src="img/barbie-four.jpg" alt="barbie-four">
+              <img src="img/barbie-five.jpg" alt="barbie-five">
+              <img src="img/barbie-seven.webp" alt="barbie-seven">
+              <img src="img/barbie-eight.jpg" alt="barbie-eight">
+              <img src="img/barbie-nine.jpg" alt="barbie-nine">
+              <img src="img/barbie-ten.jpg" alt="barbie-ten">
+              <img src="img/barbie-twelve.jpg" alt="barbie-twelve">
+              <img src="img/barbie-thirteen.jpg" alt="barbie-thirteen">
+              <img src="img/barbie-fifteen.jpg" alt="barbie-fifteen">
+              <img src="img/barbie-seventeen.jpg" alt="barbie-seventeen">
+              <img src="img/barbie-nineteen.jpg" alt="barbie-nineteen">
+              <img src="img/barbie-twentee.jpg" alt="barbie-twentee">
+              <img src="img/barbie-twenteeone.webp" alt="barbie-twenteeone">
+              <img src="img/7ff3caa82932de66e0b5e4e75bc6e8bd.jpg" alt="barbie-twenteetwo">
+            </div>
+          </div>
+          
+          <div id="movies-page">
+          <header class="header-movies">
+            <h1 class="movie-title">Movies</h1>
+            <p class="movie-paragraph">Acting is my specialty!</p>
+            </header>
+            <div class="movies">
+          <img src="img/barbie movie list.png" alt="barbie movie list" class="movie-list">
+        </div>
+    
+        <div id="my-barbie-house">
+          <p class="paragraph-one-house">My Home</p>
+          <P class="paragraph-two-house">It is a dream come true</P>
+        <img src="img/barbie house.jpg" alt="barbie-house" class="barbie-house">
+      </div>
+      
+      <div id="friends-request">
+        <p class="friends-paragraph-one">Want to be Friends?</p>
+        <button class="friends-button"><a href="#" class="friends-link">Let's be Friends</a></button>
+        <p class="back-to-home-page-link"><a href="#page-one" class="back-home-page-link">Back to home page</a></p>
+      </div>
+      
+      <footer>
+      <p class="text-center mt-5 last-sent">This was coded by Isha F,
+      and it is <a href="https://github.com/IshaFazli3/BARBIE-WEB"
+      alt="github-portfolio-code" target="_blank"
+       title="github portfolio code">open-sourced</a>
+       <br><span style="font-size: 10px;">(Images are from Google)</span></p>
+        </footer>
+</body>
+</html>
